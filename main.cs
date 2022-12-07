@@ -2,8 +2,7 @@ using System;
 
 class Program {
   public static void Main (string[] args) {
-
-  String maçãs, entrada;
+    
   Double valor; 
   Int16  num;
 
@@ -15,18 +14,19 @@ class Program {
   {
   valor = num*1.30;
   
-Console.WriteLine("O valor total de maçãs compradas foi : " + valor + "reais");
+Console.WriteLine("O valor total de maçãs compradas foi : " + valor + " reais ");
 
   }
   
-  else (num>12)
-  valor = num*1.00;
-    {
-      
-  Console.WriteLine("O valor total de maçãs compradas foi : " + valor + "reais");
+  else
+  {
+     valor = num*1.00;
     
-    }
-
+     Console.WriteLine("O valor total de maçãs compradas foi : " + valor + " reais ");
+    
   }
 
   }
+}
+
+  
