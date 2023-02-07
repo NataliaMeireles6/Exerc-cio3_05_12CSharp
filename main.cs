@@ -1,32 +1,34 @@
 using System;
 
-class Program {
-  public static void Main (string[] args) {
-    
-  Double valor; 
-  Int16  num;
+class Program
+{
+    public static void Main(string[] args)
+    {
 
-  Console.WriteLine("Digite o número de maçãs compradas");
-  
-  num = Int16.Parse(Console.ReadLine());
+        Double valor;
+        Int16 num;
 
-  if(num<12)
-  {
-  valor = num*1.30;
-  
-Console.WriteLine("O valor total de maçãs compradas foi : " + valor + " reais ");
+        Console.WriteLine("Digite o número de maçãs compradas");
 
-  }
-  
-  else
-  {
-     valor = num*1.00;
-    
-     Console.WriteLine("O valor total de maçãs compradas foi : " + valor + " reais ");
-    
-  }
+        num = Int16.Parse(Console.ReadLine());
 
-  }
+        if (num < 12)
+        {
+            valor = num * 1.30;
+
+            Console.WriteLine("O valor total de maçãs compradas foi : " + valor + " reais ");
+
+        }
+
+        else
+        {
+            valor = num * 1.00;
+
+            Console.WriteLine("O valor total de maçãs compradas foi : " + valor + " reais ");
+
+        }
+
+    }
 }
 
-  
+
